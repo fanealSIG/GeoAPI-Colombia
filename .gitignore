@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Env
+.env
+*.env
+gee-key.json
+*.json.secret
+
+# Node
+node_modules/
+dist/
+.next/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Railway / Vercel
+.vercel/
+railway.toml.local
+
+# Logs
+*.log
+logs/
+
+# Alembic (no ignorar migrations)
+# alembic/versions/*.py  ← NO ignorar esto
